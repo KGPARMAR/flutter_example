@@ -31,6 +31,8 @@ void main() {
   var defaultValue; //here default value is null
 
   print('name : $name');
+  print('name length : ${name.length}'); // this is good way for write code
+  print('name length : ' + name.length.toString()); //this is not good way
   print('age : $age');
   print('code : $code');
   print('isValid : $isValid');
@@ -52,4 +54,9 @@ void main() {
   'It\'s easy ';
   true;
   //above all are literals value
+
+  var numberOne = 47;
+  int numberTwo = 76;
+
+  print('Number one is : $numberOne and Number two is : $numberTwo two number sum of : ${numberOne + numberTwo}');
 }

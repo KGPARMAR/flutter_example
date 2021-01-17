@@ -13,6 +13,7 @@
 void main() {
   var grade = 'A';
 
+  //check string value
   switch (grade) {
     case 'A':
       print('Your grade is $grade good');
@@ -28,5 +29,24 @@ void main() {
       break;
     default:
       print('Invalid grade');
+
+      //check integer value
+      int number = 47;
+      switch (number) {
+        case 10:
+          print('Your number is : $number good');
+          break;
+        case 20:
+          print('Your number is : $number medium');
+          break;
+        case 30:
+          print('Your number is : $number bad');
+          break;
+        case 47:
+          print('Your number is : $number ');
+          break;
+        default:
+          print('Invalid number');
+      }
   }
 }

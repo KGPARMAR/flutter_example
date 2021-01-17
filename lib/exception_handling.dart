@@ -56,7 +56,7 @@ void main() {
   try {
     depositAmount(-47);
   } catch (e, s) {
-    print(s);
+    print(s); //STACK TRACE LOG PRINT TO EASY TO FIND ERROR
     print(e.errorMessage());
   } finally {
     print('Thanks for visit!!!');

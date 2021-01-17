@@ -1,6 +1,6 @@
 # Flutter example
 
-A new Flutter example application.
+Welcome to flutter development
 
 ## Getting Started
 
